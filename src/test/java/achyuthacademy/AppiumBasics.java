@@ -19,6 +19,7 @@ public class  AppiumBasics extends basetest {
 		Assert.assertEquals(actual_alertTitle, "WiFi settings");
 		driver.findElement(By.id("android:id/edit")).sendKeys("Achyuth Wifi");
 		driver.findElements(By.className("android.widget.Button")).get(1).click();
+		//lnc un
 	}
 
 }
